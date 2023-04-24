@@ -3,7 +3,7 @@ import React from "react";
 const PrincipalPage = (props) => {
     return (
 
-// revisar por qué no funciona el carrousel, no pasa de diaoositiva
+// revisar por qué no funciona el carrousel, no pasa de diapositiva
         <main>
             <div className="container-fluid" style={{ backgroundColor: 'white' }}>
                 <div className="row">
