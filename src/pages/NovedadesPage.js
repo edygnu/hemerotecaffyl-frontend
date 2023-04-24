@@ -2,10 +2,11 @@ import React from "react";
 
 const NovedadesPage = (props) => {
     return (
-        <>
-            <div>Novedades</div>
-        </>
-
+        <main>
+            <div className="container-fluid">
+                <p>Escaneos de las últimas adquisiciones.</p>
+            </div>
+        </main>
     );
 }
 
