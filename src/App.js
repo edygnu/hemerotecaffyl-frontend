@@ -11,7 +11,6 @@ import TitulosPage from './pages/TitulosPage';
 import ExistenciasPage from './pages/ExistenciasPage';
 import NovedadesPage from './pages/NovedadesPage';
 import ContactoPage from './pages/ContactoPage';
-import Footer from './components/layout/Footer';
 
 function App() {
   return (
@@ -27,7 +26,6 @@ function App() {
           <Route path="/contacto" element={<ContactoPage />} />
         </Routes>
       </BrowserRouter>
-      <Footer />
       <Footer />
 
     </div>
