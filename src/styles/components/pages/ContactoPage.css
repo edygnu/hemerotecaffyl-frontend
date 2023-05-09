@@ -1,0 +1,75 @@
+.contacto {
+    max-width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    gap: 24px;
+}
+
+.contacto h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.contacto div {
+    width: 100%;
+}
+
+.datos p {
+    font-size: 16px;
+}
+
+.datos ul li {
+    font-size: 16px;
+}
+
+.formulario {
+    padding-top: 22px;
+    padding-left: 60px;
+}
+
+.formulario p {
+    display: flex;
+}
+
+.formulario p label {
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.formulario p:nth-child(4) {
+    align-items: start;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 150px;
+}
+
+.formulario input[type="submit"] {
+    background: #415063;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #2e64a1;
+}
+
+.datos {
+    padding-top: 22px;
+    padding-left: 50px;
+}
+
+.horarios {
+    padding-top: 22px;
+    padding-left: 50px;
+}

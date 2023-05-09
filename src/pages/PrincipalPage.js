@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/components/pages/PrincipalPage.css';
 
 const PrincipalPage = (props) => {
     return (

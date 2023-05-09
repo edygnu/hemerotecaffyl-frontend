@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-size: 68px;
+    color: rgb(239, 239, 239);
+    text-shadow: -3px -3px 3px #333, 3px -3px 3px #333, -3px 3px 3px #333, 3px 3px 3px #333;
+}
+
+.col-3 img {
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}

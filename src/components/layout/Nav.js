@@ -1,6 +1,8 @@
 import React from "react";
+import '../../styles/components/layout/Nav.css';
 
-import { Link } from "react-router-dom";
+
+import { NavLink } from "react-router-dom";
 
 const Nav = (props) => {
     return (
@@ -11,19 +13,19 @@ const Nav = (props) => {
                     {/* ver cómo poner clase active para ver la ṕagina en la que se está navegando*/}
 
                     <li className="nav-item">
-                        <Link to="/">Principal</Link>
+                        <NavLink to="/" className={({ isActive }) => isActive ? "active" : undefined}>Principal</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link to="/existencias">Existencias</Link>
+                        <NavLink to="/existencias" className={({ isActive }) => isActive ? "active" : undefined}>Existencias</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link to="/titulos">Títulos</Link>
+                        <NavLink to="/titulos" className={({ isActive }) => isActive ? "active" : undefined}>Títulos</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link to="/novedades">Novedades</Link>
+                        <NavLink to="/novedades" className={({ isActive }) => isActive ? "active" : undefined}>Novedades</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link to="/contacto">Contacto</Link>
+                        <NavLink to="/contacto" className={({ isActive }) => isActive ? "active" : undefined}>Contacto</NavLink>
                     </li>
                 </ul>
             </div>
